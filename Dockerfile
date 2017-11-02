@@ -1,7 +1,7 @@
 FROM ghost
 
 # Update
-RUN apt-get update && apt-get upgrade
+RUN apt-get update && apt-get upgrade -y
 
 # Add in better default config
 # ADD config.example.js config.example.js
